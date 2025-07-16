@@ -2,7 +2,6 @@ import random
 word=["fruit","meat","lunch","work","bead"]
 computer=random.choice(word)
 clue=["_" for _ in computer]
-print(computer)
 lives=6
 previous=set()
 
